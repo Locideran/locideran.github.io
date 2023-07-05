@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: lightgray;
+}
+
+header {
+    padding-top: 20px;
+    padding-left: 20px;
+    background-color: black;
+    color: white;
+    height: 100px;
+}
+
+main {
+    position: relative;
+}
+
+section#perfil {    
+    position: absolute;
+    background-color: gray;
+    height: 350px;
+    width: 180px;
+    border-radius: 0px 0px 10px 0px;
+}
+
+div#foto {
+    border: 1px solid black;
+    background-image: url(../imagens/foto.png);
+    background-size: cover;    
+    margin: 10px;    
+    height: 40%;
+    width: 80%;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.534);
+}
+
+div#nome {
+    margin: auto;
+    width: 90%;    
+    background-color: white;        
+    font-weight: bolder;    
+    text-shadow: 0px 0px 9px rgba(0, 0, 0, 0.486);   
+    border-radius: 5px; 
+}
+
+div#nome > h1 {
+    text-align: center;
+    color: black;
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+div#nome > p {    
+    padding: 5px;
+    position: relative;
+    padding-left: 30px;
+    color: darkslategray;
+    font-size: 1em;
+    text-align: left;
+}
+
+div#nome > p > span {
+    position: absolute;
+    left: 5px;
+    bottom: 4px;
+}
+
+
